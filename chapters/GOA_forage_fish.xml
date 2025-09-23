@@ -7,7 +7,7 @@
 	<authors>Margaret Siple</authors>
 	<contactEmail>Margaret.Siple@noaa.gov</contactEmail>
 	<authorAffiliations>Resource Assessment and Conservation Engineering Division, Alaska Fisheries Science Center, NOAA Fisheries</authorAffiliations>
-	<lastUpdate>March 2025</lastUpdate>
+	<lastUpdate>September 2025</lastUpdate>
 </header>
 <body>
 	<indicatorDescription> Forage fish are key prey for a variety of groundfish, as well as seabirds and marine mammals. Individual species of forage fish respond differently to environmental conditions. This indicator consists of data from several forage groups.
@@ -16,17 +16,18 @@ Since 1990, the RACE Groundfish Assessment Program (GAP) has conducted annual fi
 
 	The North Pacific Fishery Management Council has identified several forage fish species or groups of species for federal management. The survey catches Pacific sandlance, eulachon, capelin, sandfish, and pricklebacks though the trawl mesh size is sufficiently large to allow escapement for most of these species.
 
-Regional and subarea (NMFS statistical areas 610, 620, 630, 640, 650) indices of abundance (biomass in kilotons) and confidence intervals were estimated for each taxonomic group by fitting a multivariate random effects model (REM) to subarea design-based index of abundance time series that were calculated from RACE Groundfish Assessment Program (GAP) summer bottom trawl survey catch and effort data. Indices were calculated for the entire standardized survey time series (1990 to 2025). Design-based indices of abundance were calculated using the gapindex R package [@gapindex] and REM were fitted to the time series using the rema R package (Sullivan and Balstad, 2022). Code and data used to produce these indicators are provided in the esrindex R package and repository (Rohan, 2025).
+Regional and subarea (NMFS statistical areas 610, 620, 630, 640, 650) indices of abundance (biomass in kilotons) and confidence intervals were estimated for each taxonomic group by fitting a multivariate random effects model (REM) to subarea design-based index of abundance time series that were calculated from RACE Groundfish Assessment Program (GAP) summer bottom trawl survey catch and effort data. Indices were calculated for the entire standardized survey time series (1990 to 2025). Design-based indices of abundance were calculated using the gapindex R package [@gapindex] and REM were fitted to the time series using the rema R package [@rema]. Code and data used to produce these indicators are provided in the _esrindex_ R package and repository [@esrindex].
 
 </indicatorDescription>
 	<methodologicalChanges>
 Methods for calculating this indicator have been updated for this year, as described in the Gulf of Alaska Structural Epifauna contribution (Conrath, this year’s ESR).
 
 	</methodologicalChanges>
-	<statusAndTrends>Forage fish sampled by the bottom trawl survey in 2023 were above 1SD for herring and capelin, and below 1SD for myctophids. The largest changes since the last survey in 2021, include an increase in herring and a decrease in myctophids by about 1SD. [add highlights about 2025 relative to previous years] Eulachon have been most prevalent in the Yakutat survey district though their greatest biomass has historically occurred in the Kodiak district where biomass appears to be increasing in recent surveys after highs recorded between 2000 and 2015 (Figure 57). Capelin biomass has historically been highest in the Kodiak district. Sandfish, prickelbacks, and sand lance are uniformly uncommon in trawl catches across the GOA survey years and districts, though there are episodic years with large biomass estimates for these species over the survey history.
+	<statusAndTrends>Forage fish sampled by the bottom trawl survey in 2023 were above 1SD for herring and capelin, and below 1SD for myctophids. The largest changes since the last survey in 2021, include an increase in herring and a decrease in myctophids by about 1SD. [add highlights about 2025 relative to previous years] Eulachon have been most prevalent in the Yakutat survey district though their greatest biomass has historically occurred in the Kodiak district where biomass appears to be increasing in recent surveys after highs recorded between 2000 and 2015 (Figure STEP2). Capelin biomass has historically been highest in the Kodiak district. Sandfish, prickelbacks, and sand lance are uniformly uncommon in trawl catches across the GOA survey years and districts, though there are episodic years with large biomass estimates for these species over the survey history.
 	</statusAndTrends>
 	<factorsInfluencingTrends>, In the GOA, herring and sand lance have been observed to positively respond to warm environmental conditions, while capelin increase during cooler periods (CITATIONS). [ADD MORE] </factorsInfluencingTrends>
-	<implications>The NOAA Fisheries’ survey trawl gear has catchability and selectivity issues for forage fishes that impact their catch and retention. However, as catchability and selectivity have not changed over time, trends in the biomass of these species estimated from trawl survey samples can be considered a useful indicator. Recent increases in herring biomass may indicate more availability of forage for humpback whales and other known herring predators. [ADD MORE]  </implications>
+	<implications> Recent increases in herring biomass may indicate more availability of forage for humpback whales and other known herring predators. 
+	</implications>
 	<researchPriorities>NA (fill in later)</researchPriorities>
 </body>
 <figures>
