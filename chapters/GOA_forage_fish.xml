@@ -10,11 +10,9 @@
 	<lastUpdate>September 2025</lastUpdate>
 </header>
 <body>
-	<indicatorDescription> Forage fish are key prey for a variety of groundfish, as well as seabirds and marine mammals. Individual species of forage fish respond differently to environmental conditions. This indicator consists of data from several forage groups.
+	<indicatorDescription> Forage fish are key prey for a variety of groundfish, as well as seabirds and marine mammals. They also  Individual species of forage fish respond differently to environmental conditions. The North Pacific Fishery Management Council has identified several forage fish species or groups of species for federal management.  This indicator consists of data from seven forage groups: Pacific herring (_Clupea pallasii_), Pacific capelin (_Mallotus catervarius_ or _Mallotus villosus_), eulachon (_Thaleichthys pacificus_), sand lance (_Ammodytes_ spp.), Myctophids (family Myctophidae), Pacific sandfish (_Trichodon trichodon_), and pricklebacks (family Stichaeidae).
 
 Since 1990, the RACE Groundfish Assessment Program (GAP) has conducted annual fishery-independent summer bottom trawl surveys in the GOA using standardized trawl gear and methods. Biomass index trends from the survey are likely to reflect changes in the abundance of species and life history stages that are available to the survey, especially if trends are sustained over time.
-
-	The North Pacific Fishery Management Council has identified several forage fish species or groups of species for federal management. The survey catches Pacific sandlance, eulachon, capelin, sandfish, and pricklebacks though the trawl mesh size is sufficiently large to allow escapement for most of these species.
 
 Regional and subarea (NMFS statistical areas 610, 620, 630, 640, 650) indices of abundance (biomass in kilotons) and confidence intervals were estimated for each taxonomic group by fitting a multivariate random effects model (REM) to subarea design-based index of abundance time series that were calculated from RACE Groundfish Assessment Program (GAP) summer bottom trawl survey catch and effort data. Indices were calculated for the entire standardized survey time series (1990 to 2025). Design-based indices of abundance were calculated using the gapindex R package [@gapindex] and REM were fitted to the time series using the rema R package [@rema]. Code and data used to produce these indicators are provided in the _esrindex_ R package and repository [@esrindex].
 
@@ -23,9 +21,13 @@ Regional and subarea (NMFS statistical areas 610, 620, 630, 640, 650) indices of
 Methods for calculating this indicator have been updated for this year, as described in the Gulf of Alaska Structural Epifauna contribution (Conrath, this year’s ESR).
 
 	</methodologicalChanges>
-	<statusAndTrends>Forage fish sampled by the bottom trawl survey in 2023 were above 1SD for herring and capelin, and below 1SD for myctophids. The largest changes since the last survey in 2021, include an increase in herring and a decrease in myctophids by about 1SD. [add highlights about 2025 relative to previous years] Eulachon have been most prevalent in the Yakutat survey district though their greatest biomass has historically occurred in the Kodiak district where biomass appears to be increasing in recent surveys after highs recorded between 2000 and 2015 (Figure STEP2). Capelin biomass has historically been highest in the Kodiak district. Sandfish, prickelbacks, and sand lance are uniformly uncommon in trawl catches across the GOA survey years and districts, though there are episodic years with large biomass estimates for these species over the survey history.
+	<statusAndTrends> Several forage fish sampled by the bottom trawl survey in 2025 showed an increased estimated abundance compare to the previous year. The estimated biomass of forage species in the GOA were above 1SD for herring, and at or below -1SD for Pacific sandfish and myctophids (Figure STEP1). Sand lance, myctophids, eulachon, and herring all showed increases compared to 2023. Biomass indices declined between 2023 and 2025 for capelin, sandfish, and pricklebacks (Figure STEP1). 
+	
+ Eulachon have been most prevalent in the Yakutat survey district though their greatest biomass has historically occurred in the Kodiak district. Biomass in the Kodiak district appears to be continuing to increase in recent surveys after highs recorded between 2000 and 2015 (Figure STEP2). Eulachon biomass has also continued to increase in the Southeast OUtside region (650). 
+ 
+ Capelin biomass has historically been highest in the Kodiak district. Sandfish, prickelbacks, and sand lance are uniformly uncommon in trawl catches across the GOA survey years and districts, though there are episodic years with large biomass estimates for these species over the survey history.
 	</statusAndTrends>
-	<factorsInfluencingTrends>, In the GOA, herring and sand lance have been observed to positively respond to warm environmental conditions, while capelin increase during cooler periods (CITATIONS). [ADD MORE] </factorsInfluencingTrends>
+	<factorsInfluencingTrends>, In the GOA, herring and sand lance have been observed to positively respond to warm environmental conditions, while capelin increase during cooler periods (CITATIONS). Herring, as monitored in Southeast Alaska and Prince William Sound has had strong year classes in 2016 and 2020, supporting increasing populations. Those trends are reflected in these trawl data and potential show GOA-wide increases including in the Kodiak and west regions where we don’t have good monitoring data. Capelin core habitat has been documented around Kodiak and as their population is increasing since the heatwave, these data show they might be expanding their range out of the core habitat.  </factorsInfluencingTrends>
 	<implications> Recent increases in herring biomass may indicate more availability of forage for humpback whales and other known herring predators. 
 	</implications>
 	<researchPriorities>NA (fill in later)</researchPriorities>
@@ -35,12 +37,12 @@ Methods for calculating this indicator have been updated for this year, as descr
 		<figureNumber>1</figureNumber>
 		<figurePath>GOA_rema_forage_fish_full_region_ze_log10.png</figurePath>
 
-		<figureCaption>Biomass index of Forage Fish (Pacific herring, capelin, eualchon, sandlances, myctophids, Pacific sandfish, pricklebacks) from RACE Groundfish Assessment Program summer bottom trawl surveys of the Gulf of Alaska from 1990 to 2025. Panels show  showing the observed survey biomass index mean (blue points), random effects model fitted mean (solid black line), 95% confidence interval (gray shading), overall time series mean (solid gray line), and horizontal dashed gray lines representing one standard deviation from the mean. All are plotted on a log10 scale to better show the full range of values.</figureCaption>
+		<figureCaption>Biomass index of Forage Fish (Pacific herring, capelin, eualchon, sandlances, myctophids, Pacific sandfish, and pricklebacks) from RACE Groundfish Assessment Program summer bottom trawl surveys of the Gulf of Alaska from 1990 to 2025. Panels show  showing the observed survey biomass index mean (blue points), random effects model fitted mean (solid black line), 95% confidence interval (gray shading), overall time series mean (solid gray line), and horizontal dashed gray lines representing one standard deviation from the mean. All are plotted on a log10 scale to better show the full range of values.</figureCaption>
 	</fig>
 	<fig>
 		<figureNumber>2</figureNumber>
 		<figurePath>GOA_rema_forage_fish_subarea_bar.png</figurePath>
 
-		<figureCaption>Biomass index of Forage Fish (Pacific herring, capelin, eualchon, sandlances, myctophids, Pacific sandfish, pricklebacks) in the Gulf of Alaska estimated from RACE Groundfish Assessment Program summer bottom trawl survey data from 1990 to 2025. NMFS subareas are shown as different colors (610 - Shumagin, 620 - Chirikof, 630 - Kodiak, 640 - West Yakutat, 650 - Southeast Outside).</figureCaption>
+		<figureCaption>Biomass index of Forage Fish (Pacific herring, capelin, eualchon, sandlances, myctophids, Pacific sandfish, and pricklebacks) in the Gulf of Alaska estimated from RACE Groundfish Assessment Program summer bottom trawl survey data from 1990 to 2025. NMFS subareas are shown as different colors (610 - Shumagin, 620 - Chirikof, 630 - Kodiak, 640 - West Yakutat, 650 - Southeast Outside).</figureCaption>
 	</fig>
 </figures>
