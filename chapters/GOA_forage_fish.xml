@@ -21,9 +21,9 @@ Regional and subarea (NMFS statistical areas 610, 620, 630, 640, 650) indices of
 Methods for calculating this indicator have been updated for this year, as described in the Gulf of Alaska Structural Epifauna contribution (Conrath, this year’s ESR).
 
 	</methodologicalChanges>
-	<statusAndTrends> Several forage fish sampled by the bottom trawl survey in 2025 showed an increased estimated abundance compare to the previous year. The estimated biomass of forage species in the GOA were above 1SD for herring, and at or below -1SD for Pacific sandfish and myctophids (Figure STEP1). Sand lance, myctophids, eulachon, and herring all showed increases compared to 2023. Biomass indices declined between 2023 and 2025 for capelin, sandfish, and pricklebacks (Figure STEP1). 
+	<statusAndTrends> Several forage fish sampled by the bottom trawl survey in 2025 showed an increased estimated abundance compare to the previous year. The estimated biomass of forage species in the GOA were above 1SD for herring, and at or below -1SD for Pacific sandfish and myctophids (Figure 1)<xref type="fig" rid="fig1"/>. Sand lance, myctophids, eulachon, and herring all showed increases compared to 2023. Biomass indices declined between 2023 and 2025 for capelin, sandfish, and pricklebacks (Figure 1). 
 	
- Eulachon have been most prevalent in the Yakutat survey district though their largest biomass has historically occurred in the Kodiak district. Biomass in the Kodiak district appears to be continuing to increase in recent surveys after highs recorded between 2000 and 2015 (Figure STEP2). Eulachon biomass has also continued to increase in the Southeast OUtside region (650). 
+ Eulachon have been most prevalent in the Yakutat survey district though their largest biomass has historically occurred in the Kodiak district. Biomass in the Kodiak district appears to be continuing to increase in recent surveys after highs recorded between 2000 and 2015 (Figure 2). Eulachon biomass has also continued to increase in the Southeast OUtside region (650). 
  
  Capelin biomass has historically been highest in the Kodiak district. Sandfish, prickelbacks, and sand lance are uniformly uncommon in trawl catches across the GOA survey years and districts, though there are episodic years with large biomass estimates for these species over the survey history.
 	</statusAndTrends>
@@ -34,12 +34,14 @@ Methods for calculating this indicator have been updated for this year, as descr
 </body>
 <figures>
 	<fig>
+	  <fig id="fig1">
 		<figureNumber>1</figureNumber>
 		<figurePath>GOA_rema_forage_fish_full_region_ze_log10.png</figurePath>
 
 		<figureCaption>Biomass index of Forage Fish (Pacific herring, capelin, eualchon, sandlances, myctophids, Pacific sandfish, and pricklebacks) from RACE Groundfish Assessment Program summer bottom trawl surveys of the Gulf of Alaska from 1990 to 2025. Panels show  showing the observed survey biomass index mean (blue points), random effects model fitted mean (solid black line), 95% confidence interval (gray shading), overall time series mean (solid gray line), and horizontal dashed gray lines representing one standard deviation from the mean. All are plotted on a log10 scale to better show the full range of values.</figureCaption>
 	</fig>
 	<fig>
+	  <fig id="fig2">
 		<figureNumber>2</figureNumber>
 		<figurePath>GOA_rema_forage_fish_subarea_bar.png</figurePath>
 
